@@ -1,0 +1,26 @@
+[
+    {
+        "name": "add",
+        "introduce": "安裝套件"
+    },
+    {
+        "name": "build",
+        "introduce": "編譯打包，會產生dist資料夾"
+    },
+    {
+        "name": "generate",
+        "introduce": "創建元件"
+    },
+    {
+        "name": "new",
+        "introduce": "創建新的專案"
+    },
+    {
+        "name": "serve",
+        "introduce": "啟動本地端的Web-Server"
+    },
+    {
+        "name": "test",
+        "introduce": "單元測試，驗證程式的正確性"
+    }
+]

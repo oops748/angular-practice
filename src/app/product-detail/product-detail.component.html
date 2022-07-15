@@ -1,0 +1,10 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price }}</h4>
+  <!-- <p>{{ product.description }}</p> -->
+  <!-- <button type="button" (click)="addToCart()">加入購物車</button> -->
+</div>
+
+<a routerLink="/productList" class="button fancy-button">返回</a>

@@ -1,0 +1,42 @@
+<style>
+    tr:hover {
+        background-color: #D6EEEE;
+    }
+
+    td {
+        padding: 10px 60px;
+        font-size: medium;
+    }
+
+    th {
+        padding: 5px;
+        font-size: large;
+        background-color: #D6EEEE
+    }
+
+    table,
+    th,
+    td {
+        border: 2px solid;
+        border-collapse: collapse;
+        border-color: #3d5777;
+    }
+</style>
+
+<h1>cli command</h1>
+
+<div class="">
+    <table>
+        <tr>
+            <th>COMMAND</th>
+            <th>DESCRIPTION</th>
+        </tr>
+        <tr *ngFor="let cli of cliInformation | async">
+            <td>{{ cli.name }}</td>
+            <td>{{ cli.introduce }}</td>
+        </tr>
+
+
+    </table>
+
+</div>
